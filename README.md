@@ -88,7 +88,7 @@ keyframe. That would confirm or rule out my current theory.
 - This repository. World, robot description, noise node, EKF.
 - Demo video (drive, panel toggling, live degeneracy warnings firing).
   Linked via Google Drive in the submission email.
-- `media/trajectory_comparison.png`. Ground truth vs. raw odometry vs.
+- `trajectory_comparison.png`. Ground truth vs. raw odometry vs.
   fused estimate, damped and fully-trusted correction side by side.
-- `media/ekf_output_log.txt`. Timestamped covariance matrices and
+- `ekf_output_log.txt`. Timestamped covariance matrices and
   degeneracy warnings from the submitted (damped) configuration.
