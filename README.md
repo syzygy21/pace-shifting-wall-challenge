@@ -53,7 +53,7 @@ tuned from real logged eigenvalue data rather than picked arbitrarily.
 
 The correction step has a real, unresolved bug. When fully trusted, it
 produces a biased estimate, most visibly a steady drift in `y` even though
-the robot only ever drives straight (`media/trajectory_comparison.png`
+the robot only ever drives straight (`trajectory_comparison.png`
 shows this directly, side by side against a run with correction heavily
 damped). Digging into it: the ICP information matrix's eigenvalues, once
 actually measured from real runs, came out far larger than expected.
